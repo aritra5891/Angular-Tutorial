@@ -1,0 +1,12 @@
+<p>The server is {{ serverStatus }}.</p>
+
+<button class="btn btn-primary" (click)="changeServerToggle()">{{ serverToggle }}</button>
+
+<hr>
+
+<!-- data binding section -->
+
+<input type="text" class="form-control" (blur) = "onInput($event)"><br>
+<p>{{ eventText }}</p>
+
+<hr>

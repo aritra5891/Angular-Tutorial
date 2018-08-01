@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="inputText" class="form-control">
+<p>{{ inputText }}</p>
+<button [disabled] = "inputText === ''" (click) = "buttonClicked()" class="btn btn-primary">Click Me</button>
+<hr>
